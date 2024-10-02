@@ -12,3 +12,4 @@ The goal of this project is to implement a sentiment analysis pipeline using BER
   - __Error Analysis__: Analysis of model performance on various emotion classes, with insights into strengths and areas for improvement.
 
 ## Results
+![results](results.png)
