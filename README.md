@@ -13,3 +13,7 @@ The goal of this project is to implement a sentiment analysis pipeline using BER
 
 ## Results
 ![results](results.png)
+### Key Observations
+  - The model performs well for classes with larger support, particularly "happy" (F1-score = 0.89) and "angry" (F1-score = 0.78).
+  - Performance is significantly weaker for underrepresented classes such as "disgust", "sad", and "surprise", due to the limited number of samples (low support). This highlights the challenge of class imbalance.
+  - The overall accuracy is 79%, but the macro average is much lower, indicating the model struggles with minority classes.
