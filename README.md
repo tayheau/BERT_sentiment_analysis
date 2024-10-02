@@ -38,4 +38,4 @@ jupyter notebook
 ## References
 [1] : Jacob Devlin et al. *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.* 2019. arXiv : [1810.04805 [cs.CL]](https://arxiv.org/abs/1810.04805)
 
-[2] : Hugging Face. *BERT : A Guide to the BERT Model.* Transfromers Documentation. [huggingface.co](https://huggingface.co/docs/transformers/model_doc/bert)
+[2] : Hugging Face. *BERT : A Guide to the BERT Model.* Transfromers Documentation. [huggingface.co/docs/transformers/model_doc/bert](https://huggingface.co/docs/transformers/model_doc/bert)
