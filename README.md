@@ -17,3 +17,24 @@ The goal of this project is to implement a sentiment analysis pipeline using BER
   - The model performs well for classes with larger support, particularly "happy" (F1-score = 0.89) and "angry" (F1-score = 0.78).
   - Performance is significantly weaker for underrepresented classes such as "disgust", "sad", and "surprise", due to the limited number of samples (low support). This highlights the challenge of class imbalance.
   - The overall accuracy is 79%, but the macro average is much lower, indicating the model struggles with minority classes.
+
+## Setup and installation
+### Prerequisites
+Install the dependencies using:
+```bash
+pip install -r requirements.txt
+```
+### Run the notebook
+Clone the repo:
+```bash
+git clone https://github.com/tayheau/BERT_sentiment_analysis.git
+cd BERT_sentiment_analysis
+```
+Open the Jupyter Notebook:
+```bash
+jupyter notebook
+```
+
+## References
+[1] : Jacob Devlin et al. *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.* 2019. arXiv : [1810.04805 [cs.CL]](https://arxiv.org/abs/1810.04805)
+[2] : 
